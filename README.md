@@ -38,26 +38,42 @@ This is a Django-based e-commerce platform where:
    git clone https://github.com/your-username/ecommerce-django-app.git
    cd ecommerce-django-app
 2.**Create a virtual environment:**
+  ```bash
   python3 -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
+  ```
+
 3.**Install dependencies:**
+```
 pip install -r requirements.txt
+```
+
 4.**Configure the database:**
+
 5.**Run migrations:**
+```
 python manage.py migrate
+```
+
 6.**Create a superuser:**
+```
 python manage.py createsuperuser
+```
+
 7.**Run the development server:**
+```
 python manage.py runserver
+```
+
 8.Open the app in your browser at http://127.0.0.1:8000/.
 
-###Usage:
--Sellers: Register as a seller, log in, and start adding products.
--Buyers: Register as a buyer, browse products, add them to your cart, proceed to checkout, and track your orders.
+### Usage :
+- Sellers: Register as a seller, log in, and start adding products.
+- Buyers: Register as a buyer, browse products, add them to your cart, proceed to checkout, and track your orders.
 
-###Technologies Used:
--Django: Backend framework
--PostgreSQL: Database (or any other database)
--Bootstrap: Frontend framework for responsive UI
--AWS S3: For storing product images (Optional)
--Stripe/PayPal: For payment gateway (Optional)
+### Technologies Used:
+- Django: Backend framework
+- PostgreSQL: Database (or any other database)
+- Bootstrap: Frontend framework for responsive UI
+- AWS S3: For storing product images (Optional)
+- Stripe/PayPal: For payment gateway (Optional)
